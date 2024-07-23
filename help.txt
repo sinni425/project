@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>123 고객센터</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 1080px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .content {
+            padding: 40px 20px;
+        }
+        .content h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .content img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .tags .tag {
+            background-color: #f1f3f5;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+        .articles {
+            text-align: left;
+        }
+        .articles .article {
+            margin-bottom: 40px;
+        }
+        .articles .article h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .articles .article p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        @media (min-width: 768px) {
+            .navbar .menu {
+                display: flex;
+                gap: 20px;
+            }
+        }
+            .navbar .download-button {
+                display: none;
+            }
+            .content h1 {
+                font-size: 36px;
+            }
+            .content p {
+                font-size: 24px;
+            }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">123</div>
+            <div class="menu">
+                <a href="#">즐겨찾기</a>
+                <a href="#">이전으로</a>
+                <a href="#">홈으로</a>
+            </div>
+        </div>
+        <div class="content">
+            <img src="your-image-path.png" alt="상담 이미지">
+            <h1>무엇을 도와드릴까요?</h1> <br>버튼을 누르거나 화면을 하단으로 내려보세요<br>
+            </div>
+
+            <div class="tags">
+                <a href="#kiosk_education" class="tag">화면 사용 방법</a>
+                <a href="#signup" class="tag">회원가입</a>
+                <a href="#login" class="tag">로그인</a>
+                <a href="#bookmark" class="tag">즐겨찾기</a>
+                <a href="#learning" class="tag">키오스크학습</a>
+                <a href="#game" class="tag">리듬게임</a>
+                <a href="#words" class="tag">단어설명</a>
+            </div>
+        </div>
+    </div>
+    <div class="container articles">
+        <div id="kiosk_education" class="article">
+            <h2>화면 사용 방법</h2>
+            <p>화면을 손이나 마우스로 버튼을 누르면 페이지가 작동합니다</p>
+        </div>
+        <div id="signup" class="article">
+            <h2>회원 가입</h2>
+            <p>회원가입 방법</p>
+        </div>
+        <div id="login" class="article">
+            <h2>로그인</h2>
+            <p>로그인방법</p>
+        </div>
+        <div id="bookmark" class="article">
+            <h2>즐겨찾기</h2>
+            <p>즐겨찾기</p>
+        </div>
+        <div id="learning" class="article">
+            <h2>키오스크 학습</h2>
+            <p>키오스크학습</p>
+        </div>
+        <div id="game" class="article">
+            <h2>리듬게임</h2>
+            <p>리듬게임</p>
+        </div>
+        <div id="words" class="article">
+            <h2>단어설명</h2>
+            <p>단어설명</p>
+        </div>
+    </div>
+</body>
+</html>
